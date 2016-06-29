@@ -6,6 +6,8 @@ Authors@R: person("Andrew", "Collier", email = "andrew@exegetic.biz", role = c("
 Description: Functions to calculate various characteristics of ellipses.
 License: GPL-3
 LazyData: TRUE
-Imports: pracma
-Suggests: testthat
-RoxygenNote: 5.0.0
+Imports:
+    pracma
+Suggests:
+    testthat
+RoxygenNote: 5.0.1

@@ -1,7 +1,7 @@
 library(elliptical)
 
-context("Perimeter")
+context("Semi Minor Axis")
 
-test_that("perimeter of a circle", {
-  expect_equal(ellipse_perimeter(1), 2 * pi)
+test_that("semi minor axis of an ellipse", {
+  expect_equal(ellipse_semi_minor(2,3,3), 2)
 })
